@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ExifLibrary</id>
+    <version>1.0.13</version>
+    <title>ExifLibrary</title>
+    <authors>oozcitak,Devedse</authors>
+    <owners>oozcitak,Devedse</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/devedse/exiflibrary</projectUrl>
+    <description>Exif modification library. Written by oozcitak and converted to DotNet Core by Devedse.</description>
+    <tags>exif jpeg image</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
